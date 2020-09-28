@@ -7,7 +7,7 @@ https://www.youtube.com/watch?v=BuZtAqk5LIY&feature=youtu.be
     <head>
         <meta charset="UTF-8">
         <title>Calculator App</title>
-        <link rel='stylesheet' type='text/css' href='calc_style.css'>
+        <link rel='stylesheet'  href='css/calc_style.css'>
     </head>
     <body>
         <form class='calculator' name='calc'>
