@@ -27,7 +27,7 @@ https://www.youtube.com/watch?v=BuZtAqk5LIY&feature=youtu.be
             <span class='num' onclick="document.calc.txt.value +='2'">2</span>
             <span class='num' onclick="document.calc.txt.value +='1'">1</span>
             <span class='num' onclick="document.calc.txt.value +='0'">0</span>
-            <span class='num' onclick="document.calc.txt.value +='^'">^</span>
+            <span class='num' onclick="document.calc.txt.value +='**'">^</span>
             <span class='num' onclick="document.calc.txt.value +='.'">.</span>
             <span class='num equal' onclick="document.calc.txt.value = eval(calc.txt.value)">=</span>
         </form>
