@@ -15,6 +15,7 @@ body
 {
     display: flex;
     justify-content: center;
+    align-items: center;
     min-height: 100vh;
     background: #091921;
 }
@@ -32,7 +33,7 @@ body
     text-align: right;
     border: none;
     outline: none;
-    padding: 5px;
+    padding: 10px;
     font-size: 18px;
 }
 
