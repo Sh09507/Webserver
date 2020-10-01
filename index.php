@@ -6,8 +6,9 @@ https://www.youtube.com/watch?v=BuZtAqk5LIY&feature=youtu.be
 <html>
     <head>
         <meta charset="UTF-8">
+        <meta name="author" content="Sabrina Hill">
         <title>Calculator App</title>
-        <link rel='stylesheet'  href='css/calc_style.css'>
+        <link rel='stylesheet' href='css/calc_style.css'>
     </head>
     <body>
         <form class='calculator' name='calc'>
