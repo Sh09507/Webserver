@@ -58,7 +58,7 @@ body
 {
     grid-column: span 2;
     width: 120px;
-    background: #ff3077;
+    background: #ffd1dc;
 }
 
 .calculator span.plus 
@@ -69,5 +69,5 @@ body
 
 .calculator span.equal 
 {
-    background: #03b1ff;
+    background: #89cff0;
 }
