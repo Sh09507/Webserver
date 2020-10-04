@@ -11,6 +11,15 @@ https://www.youtube.com/watch?v=BuZtAqk5LIY&feature=youtu.be
         <link rel='stylesheet' href='css/calc_style.css'>
     </head>
     <body>
+        <script>
+            function keebo(x) {
+            try {
+                return eval(x);
+            }catch(err) {
+                 return "Error"
+            }
+            }
+</script>
         <form class='calculator' name='calc'>
             <input class='value' type='text' name='txt' readonly="">
             <span class='num clear' onclick="document.calc.txt.value =''">c</span>
@@ -30,7 +39,7 @@ https://www.youtube.com/watch?v=BuZtAqk5LIY&feature=youtu.be
             <span class='num' onclick="document.calc.txt.value +='0'">0</span>
             <span class='num' onclick="document.calc.txt.value +='**'">^</span>
             <span class='num' onclick="document.calc.txt.value +='.'">.</span>
-            <span class='num equal' onclick="document.calc.txt.value = eval(calc.txt.value)">=</span>
+            <span class='num equal' onclick="document.calc.txt.value = keebo(calc.txt.value)">=</span>
         </form>
     </body>
 </html>
