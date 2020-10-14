@@ -17,7 +17,7 @@ https://www.youtube.com/watch?v=BuZtAqk5LIY&feature=youtu.be
             $user = "phpmyadmin";
             $pass = "sab95978";
             $myDBconnection = new PDO("mysql:host=$hn;dbname=$dn", $user, $pass);
-            $query = "INSERT INTO Log (Text, Date) VALUES ('A user has accessed the main site', NOW())";
+            $query = "INSERT INTO logs (Text, Date) VALUES ('A user has accessed the main site', NOW())";
             $dbquery = $myDBconnection -> prepare($query);
             $dbquery -> execute();
         ?>
