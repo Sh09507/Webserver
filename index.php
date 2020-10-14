@@ -11,6 +11,16 @@ https://www.youtube.com/watch?v=BuZtAqk5LIY&feature=youtu.be
         <link rel='stylesheet' href='css/calc_style.css'>
     </head>
     <body>
+        <?php
+            $hn = "localhost";
+            $dn = "Log";
+            $user = "phpmyadmin";
+            $pass = "sab95978";
+            $myDBconnection = new PDO("mysql:host=$hn;dbname=$dn", $user, $pass);
+            $query = "INSERT INTO Log (Text, Date) VALUES ('A user has accessed the main site', NOW())";
+            $dbquery = $myDBconnection -> prepare($query);
+            $dbquery -> execute();
+        ?>
         <script>
             function keebo(x) {
             try {
@@ -19,7 +29,7 @@ https://www.youtube.com/watch?v=BuZtAqk5LIY&feature=youtu.be
                  return "Error"
             }
             }
-</script>
+        </script>
         <form class='calculator' name='calc'>
             <input class='value' type='text' name='txt' readonly="">
             <span class='num clear' onclick="document.calc.txt.value =''">c</span>
